@@ -11,15 +11,15 @@
   <div class="status-bar">
     <div class="status-bar__column">
       <span>No Service</span>
-      <i class="fa-sharp fa-solid fa-wifi"></i>
+      <img src="./css/icons/wifi.svg" alt="">
     </div>
     <div class="status-bar__column">
       <span>18:43</span>
     </div>
     <div class="status-bar__column">
       <span>100%</span>
-      <i class="fa-solid fa-battery-full"></i>
-      <i class="fa-solid fa-bolt-lightning"></i>
+      <img src="./css/icons/battery.svg" alt="">
+      <img src="./css/icons/bolt.svg" alt="">
     </div>
   </div>
 
@@ -28,16 +28,14 @@
     <p class="welcome-header__text">If you have a Kokoa Account, <br> log in with your email or phone number.</p>
   </header>
 
-  <form id="login-form" action="">
-    <label for="id" class="sr-only">이메일이나 핸드폰 번호를 입력해주세요</label>
-    <input name="id" type="text" placeholder="Email or phone number">
+  <form action="friends.html" post="get" id="login-form" action="">
+    <label for="username" class="sr-only">이메일이나 핸드폰 번호를 입력해주세요</label>
+    <input name="username" type="text" placeholder="Email or phone number" required>
     <label for="password" class="sr-only">비밀번호를 입력해주세요</label>
-    <input name="password" type="password" placeholder="Password">
+    <input name="password" type="password" placeholder="Password" required>
 
-    <input type="button" value="Log In">
+    <input type="submit" value="Log In">
     <a href="#">Find Kokoa Account or Password</a>
   </form>
-
-  <script src="https://kit.fontawesome.com/021968f2ba.js" crossorigin="anonymous"></script>
 </body>
 </html>

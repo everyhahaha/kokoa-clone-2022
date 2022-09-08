@@ -1,0 +1,29 @@
+.status-bar {
+  margin: 8px 6px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.status-bar__column {
+  width: 33vw;
+}
+.status-bar__column img {
+  width: 16px;
+  height: 16px;
+}
+.status-bar__column:first-child {
+  display: flex;
+  gap: 4px;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.status-bar__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+.status-bar__column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 4px;
+}

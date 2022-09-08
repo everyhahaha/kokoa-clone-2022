@@ -1,0 +1,8 @@
+:root {
+  /* color */
+  --color-main: rgb(255, 217, 0);
+  --color-text: rgb(50, 50, 50);
+  --color-text-sub: rgb(131, 131, 131);
+  --color-text-disable: rgb(189, 189, 189);
+  --color-bg: #fff; 
+}

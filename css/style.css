@@ -1,9 +1,25 @@
-@import url(./log-in.css);
 @import url(./reset.css);
+@import url(./variables.css);
 
+/* Components */
+@import url(./components/status-bar.css);
+@import url(./components/nav-bar.css);
+
+/* Screens */
+@import url(./screens/login.css);
+@import url(./screens/friends.css);
+
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap');
 
+
+body {
+  background-color: var(--color-bg);
+  width: 390px;
+  height: 844px;
+  font-family: 'DM Sans', sans-serif;
+}
 
 .sr-only {
   position: absolute;
