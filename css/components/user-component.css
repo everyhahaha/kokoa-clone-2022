@@ -1,0 +1,36 @@
+.user-component {
+  padding: 16px 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.user-component__column {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.user-component__column > img {
+  width: 52px;
+  height: 52px;
+  border-radius: 18px;
+  object-fit: cover;
+}
+.user-component__column.user > img {
+  width: 72px;
+  height: 72px;
+  border-radius: 24px;
+}
+.user-component__text h2 {
+  font-size: 14px;
+  font-weight: 500;
+}
+.user-component__text.user h2{
+  font-size: 16px;
+  font-weight: 700;
+}
+.user-component__text p{
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  opacity: 0.6;
+}

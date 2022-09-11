@@ -23,7 +23,7 @@
     </div>
   </div>
 
-  <header class="friends__header">
+  <header class="screen-header">
     <h1>Friends</h1>
     <div>
       <img src="./css/icons/chat-off.svg" alt="">
@@ -33,18 +33,22 @@
   </header>
 
   <main class="friends__main">
-    <div class="friends__banner">
-        <img src="./css/icons/notice.svg" alt="">
+    <a class="friends__banner" href="#">
+      <img src="./css/icons/notice.svg" alt="">
       <p>Friends' Names Display</p>
       <img src="./css/icons/arrow-right.svg" alt="">
-    </div>
+    </a>
 
     <section class="friends__list">
-      <article>
-        <div class="friends__profile user">
+      <article class="user-component user">
+        <div class="user-component__column user">
           <img src="./css/img/user_profile.jpg" alt="">
+          <div class="user-component__text user">
+            <h2>김재원</h2>
+            <p>안녕하세용</p>
+          </div>
         </div>
-        <h2>김재원</h2>
+        <div class="user-component__column"></div>
       </article>
 
       <header>
@@ -52,17 +56,25 @@
         <img src="./css/icons/arrow-down.svg" alt="">
       </header>
       
-      <article>
-        <div class="friends__profile">
+      <article class="user-component">
+        <div class="user-component__column">
           <img src="./css/img/profile_1.jpg" alt="">
+          <div class="user-component__text">
+            <h2>김봉자</h2>
+            <p></p>
+          </div>
         </div>
-        <h2>김봉자</h2>
+        <div class="user-component__column"></div>
       </article>
-      <article>
-        <div class="friends__profile">
+      <article class="user-component">
+        <div class="user-component__column">
           <img src="./css/img/profile_2.jpg" alt="">
+          <div class="user-component__text">
+            <h2>서민지</h2>
+            <p></p>
+          </div>
         </div>
-        <h2>서민지</h2>
+        <div class="user-component__column"></div>
       </article>
     </section>
   </main>
