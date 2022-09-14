@@ -5,4 +5,8 @@
   --color-text-sub: rgb(131, 131, 131);
   --color-text-disable: rgb(189, 189, 189);
   --color-bg: #fff; 
+  --color-bg-light-gray: rgb(245, 245, 245);
+
+  /* size */
+  --space-x: 16px;
 }

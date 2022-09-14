@@ -10,6 +10,8 @@
 /* Screens */
 @import url(./screens/login.css);
 @import url(./screens/friends.css);
+@import url(./screens/chats.css);
+@import url(./screens/find.css);
 
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
@@ -33,4 +35,7 @@ body {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
+}
+.main__grid {
+  margin: 12px var(--space-x) 12px var(--space-x);
 }

@@ -1,0 +1,157 @@
+/* 버튼 영역 */
+.find__btn {
+  padding: 22px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.find__btn ul {
+  display: flex;
+}
+.find__btn ul li {
+  width: 25vw;
+}
+.find__btn-list a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  height: 100%;
+}
+.find__btn-list a img {
+  width: 32px;
+  height: 32px;
+  opacity: 0.7;
+}
+.find__btn-list a span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2em;
+  text-align: center;
+  color: rgba(0,0,0,0.8);
+}
+
+/* 친구추천 영역 */
+.find__friends {
+  height: 32vh;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.find__friends header {
+  padding: 16px 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0,0,0,0.5);
+}
+.find__friends p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22vh;
+  text-align: center;
+  color: rgba(0,0,0,0.5);
+}
+
+/* 오픈채팅 영역 */
+.find__openchat {
+  padding-bottom: 100px;
+}
+.find__openchat-header {
+  padding: 16px 0;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  color: rgba(0,0,0,0.5);
+}
+.find__openchat-header div {
+  display: flex;
+  justify-content: center;
+  color: var(--color-text-disable);
+  gap: 4px;
+}
+.find__openchat-header div img {
+  width: 16px;
+  height: 16px;
+  opacity: 0.3;
+}
+.find__openchat-area {
+  padding: 16px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.find__openchat-area:last-child {
+  border-bottom: none;
+}
+.find__openchat-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.find__openchat-text h3 {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--color-text);
+}
+.find__openchat-text p {
+  width: 230px;
+  font-size: 16px;
+  color: var(--color-text-sub);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.find__openchat-text-info {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.find__openchat-text-info p {
+  font-size: 15px;
+}
+.find__openchat-text-info p em {
+  color: rgb(255, 94, 94);
+}
+.find__openchat-text-info img {
+  width: 20px;
+  height: 20px;
+  border-radius: 18px;
+  object-fit: cover;
+}
+.find__openchat-img {
+  position: relative;
+  width: 96px;
+  height: 96px;
+}
+.find__openchat-img img {
+  width: 96px;
+  height: 96px;
+  border-radius: 10px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.find__openchat-like {
+  padding: 4px 6px;
+  position: absolute;
+  right: 4px;
+  bottom: 6px;
+  color: white;
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 10px;
+}
+.find__openchat-like img {
+  width: 12px;
+  height: 12px;
+}
+.find__openchat-like span {
+  font-size: 14px;
+}
+.find__openchat-like-ol {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .08;
+  /* filter: alpha(opacity=8); */
+  border: 1px solid #000;
+  border-radius: 10px;
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>search</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <img src="./css/icons/wifi.svg" alt="">
+    </div>
+    <div class="status-bar__column">
+      <span>18:43</span>
+    </div>
+    <div class="status-bar__column">
+      <span>100%</span>
+      <img src="./css/icons/battery.svg" alt="">
+      <img src="./css/icons/bolt.svg" alt="">
+    </div>
+  </div>
+
+  <header class="screen-header">
+    <h1>Find</h1>
+    <div>
+      <img src="./css/icons/search-off.svg" alt="">
+      <img src="./css/icons/setting.svg" alt="">
+    </div>
+  </header>
+
+  <main class="main__grid">
+    <section class="find__btn">
+      <ul>
+        <li class="find__btn-list">
+          <a href="#">
+            <img src="./css/icons/qr-code.svg" alt="">
+            <span>QR Code</span>
+          </a>
+        </li>
+        <li class="find__btn-list">
+          <a href="#">
+            <img src="./css/icons/address.svg" alt="">
+            <span>Add by Contacts</span>
+          </a>
+        </li>
+        <li class="find__btn-list">
+          <a href="#">
+            <img src="./css/icons/id.svg" alt="">
+            <span>Add by ID</span>
+          </a>
+        </li>
+        <li class="find__btn-list">
+          <a href="#">
+            <img src="./css/icons/invite.svg" alt="">
+            <span>Invite</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="find__friends">
+      <header>
+        Recommended Friends
+      </header>
+      <p>
+        You have no Recommended friends.
+      </p>
+    </section>
+    
+    <section class="find__openchat">
+      <header class="find__openchat-header">
+        <h2>Open Chat</h2>
+        <div>
+          <span>Go to Openchat Home</span>
+          <img src="./css/icons/arrow-right.svg" alt="">
+        </div>
+      </header>
+      <article class="find__openchat-area">
+        <div class="find__openchat-text">
+          <h3>
+            #BTS
+          </h3>
+          <p>
+            #BTS#ARMY#FRIENDS
+          </p>
+          <div class="find__openchat-text-info">
+            <img src="./css/img/profile_1.jpg" alt="">
+            <p>802 members | <em>Active</em></p>
+          </div>
+        </div>
+        <div class="find__openchat-img">
+          <img src="https://i.pinimg.com/originals/47/0b/c7/470bc725c3942c68a82d5d1b15ada5fa.jpg" alt="">
+          <span class="find__openchat-like-ol"></span>
+          <div class="find__openchat-like">
+            <img src="./css/icons/heart-white.svg" alt="">
+            <span>326</span>
+          </div>
+        </div>
+      </article>
+      <article class="find__openchat-area">
+        <div class="find__openchat-text">
+          <h3>
+            Bts Gang~
+          </h3>
+          <p>
+            #englishonly #ipurpleyou #jimin #taeta...
+          </p>
+          <div class="find__openchat-text-info">
+            <img src="./css/img/profile_1.jpg" alt="">
+            <p>802 members | <em>Active</em></p>
+          </div>
+        </div>
+        <div class="find__openchat-img">
+          <img src="https://pds.joongang.co.kr/news/component/htmlphoto_mmdata/202202/16/f1103028-2977-4be1-bc09-8e20ff85c995.jpg" alt="">
+          <span class="find__openchat-like-ol"></span>
+          <div class="find__openchat-like">
+            <img src="./css/icons/heart-white.svg" alt="">
+            <span>215</span>
+          </div>
+        </div>
+      </article>
+    </section>
+
+
+  </main>
+
+  <!-- 구글 검색엔진도 navigation 안의 ul>li>a를 가져오도록 설정됨 -->
+  <nav class="nav">
+    <ul>
+      <li class="nav__btn" aria-label="Friend">
+        <a href="./friends.html">
+          <img src="./css/icons/user-off.svg" alt="">
+        </a>
+      </li>
+      <li class="nav__btn badge" aria-label="Chat">
+        <a href="./chats.html">
+          <!-- <span class="nav__notification">1</span> -->
+          <img src="./css/icons/chat-off.svg" alt="">
+        </a>
+      </li>
+      <li class="nav__btn" aria-label="Search">
+        <a href="./search.html">
+          <img src="./css/icons/search-off.svg" alt="">
+        </a>
+      </li>
+      <li class="nav__btn" aria-label="More">
+        <a href="./more.html">
+          <span class="nav__update"></span>
+          <img src="./css/icons/more.svg" alt="">
+        </a>
+      </li>
+    </ul>
+  </nav>
+</body>
+</html>

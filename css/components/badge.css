@@ -1,0 +1,11 @@
+.badge {
+  content: '1';
+  width: 1.5em;
+  height: 1.5em;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  line-height: 150%;
+  background-color: tomato;
+  border-radius: 50%;
+}

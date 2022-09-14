@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chats</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <img src="./css/icons/wifi.svg" alt="">
+    </div>
+    <div class="status-bar__column">
+      <span>18:43</span>
+    </div>
+    <div class="status-bar__column">
+      <span>100%</span>
+      <img src="./css/icons/battery.svg" alt="">
+      <img src="./css/icons/bolt.svg" alt="">
+    </div>
+  </div>
+
+  <header class="screen-header">
+    <h1>Chats</h1>
+    <div>
+      <img src="./css/icons/search-off.svg" alt="">
+      <img src="./css/icons/plus.svg" alt="">
+      <img src="./css/icons/music.svg" alt="">
+
+      <img src="./css/icons/setting.svg" alt="">
+    </div>
+  </header>
+
+  <main class="main__grid">
+    <article class="user-component">
+      <div class="user-component__column user">
+        <img src="./css/img/user_profile.jpg" alt="">
+        <div class="user-component__text user">
+          <h2>김재원</h2>
+          <p>안녕하세용</p>
+        </div>
+      </div>
+      <div class="user-component__column chat badge">
+        <p>21:22</p>
+      </div>
+    </article>
+  </main>
+
+  <!-- 구글 검색엔진도 navigation 안의 ul>li>a를 가져오도록 설정됨 -->
+  <nav class="nav">
+    <ul>
+      <li class="nav__btn" aria-label="Friend">
+        <a href="./friends.html">
+          <img src="./css/icons/user-off.svg" alt="">
+        </a>
+      </li>
+      <li class="nav__btn" aria-label="Chat">
+        <a href="./chats.html">
+          <img src="./css/icons/chat-on.svg" alt="">
+        </a>
+      </li>
+      <li class="nav__btn" aria-label="Search">
+        <a href="./find.html">
+          <img src="./css/icons/search-off.svg" alt="">
+        </a>
+      </li>
+      <li class="nav__btn" aria-label="More">
+        <a href="./more.html">
+          <span class="nav__update"></span>
+          <img src="./css/icons/more.svg" alt="">
+        </a>
+      </li>
+    </ul>
+  </nav>
+</body>
+</html>

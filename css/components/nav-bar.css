@@ -1,16 +1,29 @@
+.nav {
+
+
+}
 .nav ul {
+  z-index: 100;
   display: flex;
   position: fixed;
+  left: 0;
   bottom: 0;
   width: 100vw;
   height: 54px;
   /* justify-content: space-between; */
   /* align-items: center; */
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: var(--color-bg-light-gray);
   border-top: 1px solid var(--color-text-disable);
 }
-.nav__btn {
+.nav__btn {  
   flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav__btn a {
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,19 +32,20 @@
 .nav__btn:nth-child(4) a {
   position: relative;
 }
-.nav__notification {
+.nav__btn:nth-child(2) a::before {
   /* display: block; */
+  /* content: '1'; */
   position: absolute;
-  top: -6px;
-  right: -8px;
-  width: 1.5em;
+  top: 10px;
+  right: 27px;
+  /* width: 1.5em;
   height: 1.5em;
   color: #fff;
   font-size: 12px;
   text-align: center;
   line-height: 150%;
   background-color: tomato;
-  border-radius: 50%;
+  border-radius: 50%; */
 }
 .nav__btn img {
   width: 24px;
